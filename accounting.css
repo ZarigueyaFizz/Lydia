@@ -56,6 +56,8 @@ html {
 
 #spike {
     background: url(https://images.unsplash.com/photo-1493957988430-a5f2e15f39a3?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
+    background-position: center; 
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     position: static;
