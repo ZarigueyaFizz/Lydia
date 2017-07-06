@@ -67,6 +67,7 @@ html {
 
 #cv {
     text-align: center;
+    margin-top: 5%;
 }
 
 h1 {
@@ -104,4 +105,19 @@ h4 {
     vertical-align: center;
     text-align: left;
     padding: 2% 25%;
+}
+
+#notfound {
+    background: url(https://images.unsplash.com/photo-1497214068716-571605b05ca8?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.message {
+    vertical-align: center;
+    text-align: center;
+}
+
+#gohome {
+    margin-top: 2%;
 }
