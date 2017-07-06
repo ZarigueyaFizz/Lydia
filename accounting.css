@@ -1,11 +1,4 @@
 
-body {
-    background: url(https://images.unsplash.com/photo-1463936575829-25148e1db1b8?dpr=1&auto=format&fit=crop&w=1500&h=949&q=80&cs=tinysrgb&crop=&bg=);
-
-    background-position: center; 
-    background-repeat: no-repeat;
-}
-
 body,
 html {
     width: 100%;
@@ -14,10 +7,10 @@ html {
     color: black;
 }
 
-
 .jumbotron {
     background: url(https://images.unsplash.com/photo-1463936575829-25148e1db1b8?dpr=1&auto=format&fit=crop&w=1500&h=949&q=80&cs=tinysrgb&crop=&bg=);
-    background: 75%;
+    background-position: center; 
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     position: static;
@@ -35,6 +28,7 @@ html {
     font-family: "Lato";
 }
 
+
 #hello {
     text-align: center;
     vertical-align: center;
@@ -49,7 +43,7 @@ html {
     vertical-align: center;
 }
 .container-fluid {
-    padding: 5% 10%;
+    padding: 4% 10%;
 }
 
 .col-xs-6 {
@@ -62,7 +56,15 @@ html {
 
 #spike {
     background: url(https://images.unsplash.com/photo-1493957988430-a5f2e15f39a3?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
-    
+    height: 100%;
+    width: 100%;
+    position: static;
+    text-align: center;
+    vertical-align: center;   
+}
+
+#cv {
+    text-align: center;
 }
 
 h1 {
@@ -80,7 +82,24 @@ h2 {
     color: black;
 }
 
+h3 {
+    text-align: center;
+    padding-bottom: 2%
+}
+
 h4 {
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+#resume {
+    background: url(https://images.unsplash.com/photo-1494185728463-86366f396213?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.specs {
+    vertical-align: center;
+    text-align: left;
+    padding: 2% 25%;
 }
