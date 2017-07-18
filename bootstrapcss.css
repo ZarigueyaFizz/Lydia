@@ -103,3 +103,18 @@ i {
     padding-top: 1%;
     vertical-align: center;
 }
+
+.footer {
+    background: url(https://images.unsplash.com/photo-1493957988430-a5f2e15f39a3?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+    background-position: 25% 20%;
+    background-repeat: no-repeat;
+    width: 100%;
+    vertical-align: center;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.insertbar {
+    background: rgba(255,180,1,0.9);
+    margin-bottom: -5%;
+}
